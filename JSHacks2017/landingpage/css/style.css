@@ -578,6 +578,18 @@ span.white {
         margin-bottom: 20px
     }
     .share {
-        margin-top: 360px
+        margin-top: 30px
     }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-expand {
+    flex: 1 0 auto;
 }
