@@ -55,6 +55,14 @@ p {
   font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
 }
+
+.body-font {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
 li {
   line-height: 2;
 }
