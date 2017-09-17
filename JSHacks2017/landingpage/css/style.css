@@ -22,12 +22,12 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-rendering: optimizeLegibility;
   color: #ffffff;
   width: 100%;
   overflow-x: hidden;
-  background: #101b39;
+  background: #08112b;
 }
 .font-nasa {
   font-family: nasalization;
@@ -58,7 +58,7 @@ p,
 .body-font {
   font-size: 22px;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 300;
 }
 li {
@@ -279,6 +279,10 @@ section.san-francisco {
 .btn-pink:active {
   color: #e9467e !important;
   background: transparent;
+}
+
+.btn-xl {
+  padding: 10px 24px;
 }
 
 .btn-orange {
@@ -586,4 +590,48 @@ span.white {
 
 .flex-expand {
   flex: 1 0 auto;
+}
+
+/* font helpers */
+
+/* For Hero Titles */
+
+.f-6,
+.f-headline {
+  font-size: 9.6rem !important;
+}
+
+.f-5,
+.f-subheadline {
+  font-size: 8rem !important;
+}
+
+/* Type Scale */
+
+.f1 {
+  font-size: 4.8rem !important;
+}
+
+.f2 {
+  font-size: 3.6rem !important;
+}
+
+.f3 {
+  font-size: 2.4rem !important;
+}
+
+.f4 {
+  font-size: 2rem !important;
+}
+
+.f5 {
+  font-size: 1.6rem !important;
+}
+
+.f6 {
+  font-size: 1rem !important;
+}
+
+.f7 {
+  font-size: 0.625rem !important;
 }
