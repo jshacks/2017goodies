@@ -90,10 +90,9 @@ header .title {
 }
 .logo img {
   width: 40%;
-  animation: form 0.8s 1.5s backwards;
 }
 .fadein {
-  animation: form 0.8s 1.5s backwards;
+  animation: form 0.5s 0.7s backwards;
 }
 @media (min-width: 991px) {
   header .title a:hover {
